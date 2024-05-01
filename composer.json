@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^7.0.1",
+        "php": ">=8.0"
     },
     "extra": {
         "laravel": {
