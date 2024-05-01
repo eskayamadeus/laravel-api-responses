@@ -1,0 +1,32 @@
+{
+    "name": "eskayamadeus/laravel-api-responses",
+    "description": "Quickly return simple well-formatted API responses for Laravel endpoints.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EskayAmadeus\\ApiResponses\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elikem Seake-Kwawu",
+            "email": "skelikem@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EskayAmadeus\\ApiResponses\\ApiResponseServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    }
+}
